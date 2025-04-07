@@ -1,0 +1,147 @@
+body {
+    background-color: #f7f7f7;
+    color: #111;
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 220px;
+    padding: 20px;
+    border-right: 4px solid #ddd;
+    background-color: #fff;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #111;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #333;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .sidebar li button.active {
+    font-size: 16px;
+    background-color: #eee;
+    color: #111;
+    border: none;
+   outline: none;
+  }
+
+  .sidebar li button.active:focus {
+   border: none;
+   outline: none;
+  }
+  
+  .presentations {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+  }
+  
+  .presentations h2 {
+    letter-spacing: 2px;
+    color: #111;
+  }
+  
+  .single-video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .single-video-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .single-video-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #111;
+  }
+  
+  .single-video {
+    width: 250px;
+    max-width: 90%;
+    aspect-ratio: 9 / 16;
+    border: 8px solid #000;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #000;
+  }
+  
+  .single-video iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .all-videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 30px;
+  }
+  
+  .video-card {
+    width: calc(25% - 2rem);
+    min-width: 220px;
+    max-width: 240px;
+    text-align: center;
+  }
+  
+  .video-card p {
+    margin-top: 0.5rem;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .phone-frame {
+    border: 8px solid #000;
+    border-radius: 30px;
+    overflow: hidden;
+    aspect-ratio: 9 / 16;
+    background-color: #000;
+    width: 100%;
+  }
+  
+  .phone-frame iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+
+  button{
+    text-align: center !important;
+    font-size: 16px !important;
+  }
